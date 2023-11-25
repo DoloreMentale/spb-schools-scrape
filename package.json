@@ -1,0 +1,27 @@
+{
+  "name": "scrape-v3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/vision": "^4.0.2",
+    "axios": "^1.6.2",
+    "fingerprint-injector": "^2.1.43",
+    "proxy-chain": "^2.4.0",
+    "puppeteer": "^21.5.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.53.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^3.1.0"
+  }
+}
